@@ -33,7 +33,7 @@ pip install colorama
 git clone https://github.com/wannazid/XWan
 ```
 ```
-cd Xwan
+cd XWan
 ```
 ```
 chmod +x install.sh
@@ -41,6 +41,10 @@ chmod +x install.sh
 ```
 ./install.sh
 ```
+```
+nano list.txt
+```
+- Masukan alamat web/ip secara berurutan dan setelah itu CTRL+X dan CTRL+Y dan ENTER
 ```
 python xwan.py
 ```
