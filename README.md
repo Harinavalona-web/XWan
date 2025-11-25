@@ -50,5 +50,8 @@ nano list.txt
 python xwan.py
 ```
 - Selamat menggunakan toolsnya >_<
+## Laporan 
+Jika ada error pada tool ini bisa langsung lapor langsung lewat telegram
+- [Hubungi saya](https://t.me/otaksenku)
 # Syarat dan Ketentuan Layanan
 Pengguna yang memanfaatkan alat ini setuju untuk mematuhi semua hukum yang berlaku dan melepas tanggung jawab pengembang dari klaim apa pun yang muncul akibat penggunaannya.
