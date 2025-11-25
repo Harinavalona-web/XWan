@@ -22,7 +22,13 @@ Karena tool ini berbasis CLI dan dijalankan untuk android dengan termux maka ada
 Tool ini khusus untuk android dengan arsitektur (arm64) dan saran saya menggunakan termux.
 - Masuk termux dan masukan command berikut secara berurutan:
 ```
+termux-setup-storage
+```
+```
 pkg update && pkg upgrade
+```
+```
+pkg install wget
 ```
 ```
 pkg install python && pkg install git && pkg install python-pip
