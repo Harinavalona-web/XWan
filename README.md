@@ -36,5 +36,11 @@ git clone https://github.com/wannazid/XWan
 cd Xwan
 ```
 ```
+chmod +x install.sh
+```
+```
+./install.sh
+```
+```
 python xwan.py
 ```
