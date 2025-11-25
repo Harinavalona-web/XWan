@@ -243,7 +243,7 @@ def test_address(target_address, server_config):
             json.dump(xray_config, f, indent=2)
         
         xray_proc = subprocess.Popen(
-            ["core/xray", "run", "-config", config_file],
+            ["xray", "run", "-config", config_file],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL
         )
