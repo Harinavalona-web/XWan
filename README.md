@@ -14,7 +14,7 @@ Alat yang berfungsi untuk mengecek website/ip address yang bisa digunakan untuk 
 - Perbaikan code
 - Scan lebih cepat dari sebelumnya (v1.0)
 ## Kelebihan
-- Aman karena tidak akan meyimpan log akun anda karena tool ini open source
+- Aman karena tidak akan meyimpan log akun anda
 - Multi protocol support seperti VMess,Trojan, VLess
 - Bisa menggunakan SSH Websocket
 - Support metode Wilcard dan SNI
