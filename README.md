@@ -1,4 +1,4 @@
-![Picture tool](https://github.com/wannazid/XWan/blob/main/img.jpg)
+![Picture tool](https://github.com/wannazid/XWan/blob/main/tool.jpg)
 ![XWan](https://img.shields.io/badge/XWAN-v2.0-blue?style=for-the-badge&logo=probot&logoColor=white)
 ![Version](https://img.shields.io/badge/Version-2.0-blue?style=for-the-badge&logo=git&logoColor=white)
 ![Xray-core](https://img.shields.io/badge/Xray--core-v25.10.15-orange?style=for-the-badge&logo=windowsterminal&logoColor=white)
