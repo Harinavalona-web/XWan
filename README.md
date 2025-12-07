@@ -13,7 +13,7 @@ Alat yang berfungsi untuk mengecek website/ip address yang bisa digunakan untuk 
 - Dapat menggunakan metode Wilcard dan SNI
 - Perbaikan code
 - Scan lebih cepat dari sebelumnya (v1.0)
-## Cara update v1.0 ke v2.0
+## Cara ganti v1.0 ke v2.0
 Ketik command dibawah ini secara berurutan di termux:
 ```
 cd ~
