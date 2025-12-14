@@ -83,6 +83,9 @@ pkg install python && pkg install git && pkg install python-pip
 pip install colorama
 ```
 ```
+pip install beautifulsoup4
+```
+```
 git clone https://github.com/wannazid/XWan
 ```
 ```
