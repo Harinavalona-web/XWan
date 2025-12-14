@@ -105,6 +105,7 @@ python xwan.py
 ![Tool](https://github.com/wannazid/XWan/blob/main/tool.jpg)
 - Selamat menggunakan toolsnya >_<
 ## Perhatian 
+- Gunakan XRAY dan SSH WS karena tidak semua ip address/domain bisa menggunakan XRAY ataupun sebaliknya
 - Akun jangan bertabrakan, gunakan akun yang tidak dalam kondisi untuk injeksi
 - Pastikan akun stabil dan tidak dalam masalah
 - Jangan ada kuota reguler, hanya ada kuota yang mau di cek bug nya
