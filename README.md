@@ -7,13 +7,13 @@
 ![GitHub stars](https://img.shields.io/github/stars/wannazid/XWan?style=for-the-badge&color=yellow)
 ![GitHub forks](https://img.shields.io/github/forks/wannazid/XWan?style=for-the-badge&color=blue)
 # XWan
-Alat yang berfungsi untuk mengecek website/ip address yang bisa digunakan untuk injeksi kuota dengan dukungan Xray-core 25.10.15 serta SSH Websocket.
-## Apa yang baru (v2.0)
-- Bisa menggunakan SSH Websocket (HTTP Proxy,TLS/SSL Proxy)
-- Dapat menggunakan metode Wilcard dan SNI
+Alat yang berfungsi untuk mengecek website/ip address yang bisa digunakan untuk injeksi kuota dengan dukungan Xray-core 25.12.8 serta SSH Websocket.
+## Apa yang baru (v3.0)
+- Metode baru [ONERING](https://github.com/dharak36/xray-onering)
+- Subdomain Scanner
+- Reverse IP Address 
 - Perbaikan code
-- Scan lebih cepat dari sebelumnya (v1.0)
-## Cara ganti v1.0 ke v2.0
+## Cara ganti v2.0 ke v3.0
 Ketik command dibawah ini secara berurutan di termux:
 ```
 cd ~
@@ -28,6 +28,12 @@ git clone https://github.com/wannazid/XWan
 cd XWan
 ```
 ```
+chmod +x install.sh
+```
+```
+bash install.sh
+```
+```
 nano list.txt
 ```
 Isi ulang website/ip address dari kuota yang mau di inject, jika sudah CTRL+X -> CTRL+Y -> ENTER
@@ -35,6 +41,8 @@ Isi ulang website/ip address dari kuota yang mau di inject, jika sudah CTRL+X ->
 python xwan.py
 ```
 ## Kelebihan
+- Dapat menggunakan metode Wilcard tanpa perlu pointing yaitu [Onering](https://github.com/dharak36/xray-onering)
+- Mempunyai fitur Subdomain Scanner dan Reverse IP Address yang bisa membantu anda mencari domain/ip address 
 - Aman karena tidak akan meyimpan log akun anda
 - Multi protocol support seperti VMess,Trojan, VLess
 - Bisa menggunakan SSH Websocket
@@ -57,7 +65,7 @@ Karena tool ini berbasis CLI dan dijalankan untuk android dengan termux maka ada
 [![Watch the demo](https://img.youtube.com/vi/CG95PPK2dKI/hqdefault.jpg)](https://youtu.be/CG95PPK2dKI)
 *Klik thumbnail di atas untuk menonton*
 
-Tool ini khusus untuk android dengan arsitektur (arm64) dan saran saya menggunakan termux.
+Tool ini khusus untuk android dengan arsitektur (arm64) (amd64) dan saran saya menggunakan termux.
 - Masuk termux dan masukan command berikut secara berurutan:
 ```
 termux-setup-storage
