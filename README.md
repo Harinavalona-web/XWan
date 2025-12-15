@@ -113,6 +113,9 @@ python xwan.py
 - Pastikan akun stabil dan tidak dalam masalah
 - Jangan ada kuota reguler, hanya ada kuota yang mau di cek bug nya
 - Untuk pengecekan agar lebih pasti ulangi tool lebih dari 1 kali
+## Onering
+Jika ingin mengunjungi repository Onering bisa langsung kesini saja
+- [Onering Repository](https://github.com/dharak36/xray-onering)
 ## Laporan 
 Jika ada error pada tool ini bisa langsung lapor langsung lewat telegram
 - [Hubungi saya](https://t.me/otaksenku)
