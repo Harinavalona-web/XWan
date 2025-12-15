@@ -28,6 +28,9 @@ git clone https://github.com/wannazid/XWan
 cd XWan
 ```
 ```
+pip install beautifulsoup4
+```
+```
 chmod +x install.sh
 ```
 ```
