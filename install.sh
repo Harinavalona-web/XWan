@@ -22,7 +22,7 @@ else
     exit 1
 fi
 
-wget "https://github.com/wannazid/XWan/raw/main/xray/$CONFIG"
+wget "https://github.com/wannazid/XWan/raw/main/onering/$CONFIG"
 
 cp xray $PREFIX/bin/
 cp $CONFIG $PREFIX/bin/
