@@ -116,6 +116,15 @@ python xwan.py
 ```
 ![Tool](https://github.com/wannazid/XWan/blob/main/tool.jpg)
 - Selamat menggunakan toolsnya >_<
+### Cara hapus list dan edit list
+- Menghapus list
+```
+rm list.txt
+```
+- Edit list / buat list
+```
+nano list.txt
+```
 ## Perhatian 
 - Gunakan XRAY dan SSH WS karena tidak semua ip address/domain bisa menggunakan XRAY ataupun sebaliknya
 - Akun jangan bertabrakan, gunakan akun yang tidak dalam kondisi untuk injeksi
