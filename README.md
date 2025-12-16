@@ -116,7 +116,7 @@ python xwan.py
 ```
 ![Tool](https://github.com/wannazid/XWan/blob/main/tool.jpg)
 - Selamat menggunakan toolsnya >_<
-### Cara hapus list dan edit list
+## List
 - Menghapus list
 ```
 rm list.txt
@@ -124,6 +124,10 @@ rm list.txt
 - Edit list / buat list
 ```
 nano list.txt
+```
+- Memindahkan list ke memori internal
+```
+cp list.txt /sdcard
 ```
 ## Perhatian 
 - Gunakan XRAY dan SSH WS karena tidak semua ip address/domain bisa menggunakan XRAY ataupun sebaliknya
