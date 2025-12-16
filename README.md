@@ -31,6 +31,9 @@ cd XWan
 pip install beautifulsoup4
 ```
 ```
+pip install requests
+```
+```
 chmod +x install.sh
 ```
 ```
@@ -84,6 +87,9 @@ pkg install python && pkg install git && pkg install python-pip
 ```
 ```
 pip install colorama
+```
+```
+pip install requests
 ```
 ```
 pip install beautifulsoup4
